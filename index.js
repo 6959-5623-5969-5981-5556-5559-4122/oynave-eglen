@@ -81,4 +81,4 @@ if(coinAmt === baseAmt) {
     console.error(err);
   }
 });
-client.login(config.token);
+client.login(procces.env.BOT_TOKEN);
